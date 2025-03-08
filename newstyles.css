@@ -1,0 +1,128 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #e6dac4; /* Darker aged parchment */
+    color: #3e2f1d; /* Deep brown for a vintage feel */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b22222;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+section {
+    margin: 30px auto;
+    max-width: 90%;
+    width: 600px;
+    padding: 20px;
+    background: #e0c9a6; /* Slightly darker parchment for contrast */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b89b72; /* Subtle aged border */
+}
+
+/* Responsive Social Links */
+/* ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+} */
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Ensures proper alignment */
+}
+
+li {
+    display: block; /* Forces each item to be on a new line */
+    margin: 10px 0; /* Adds spacing between links */
+}
+/* 
+li {
+    margin: 5px 0;
+} */
+
+a {
+    text-decoration: none;
+    color: #8b4513; /* Warm brown for links */
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #5a2e0d; /* Darker brown hover effect */
+}
+
+footer {
+    background-color: #b22222;
+    color: goldenrod;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-top: 2px solid #8b4513;
+}
+
+/* --- Responsive Design --- */
+
+/* Smaller Screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    section {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    a {
+        font-size: 1.1em;
+    }
+}
+
+/* Extra Small Screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    ul {
+        gap: 10px;
+    }
+
+    a {
+        font-size: 1em;
+    }
+}
